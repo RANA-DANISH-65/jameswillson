@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Old Defined Benefit Life</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <!--Name of Agent Goes Here-->
+      <div class="logo">
+        <h1>James Wilson, ChFC, RICP, CLU</h1>
+        <h3>Safety-First Income Planning</h3>
+      </div>
+
+      <!-- Hamburger / Close Icon -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="strategy.html">The Strategy</a></li>
+          <li><a href="tax.html">Tax Treatment</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="banner-div">
+        <img src="/assets/banner.png" alt="" />
+        <p>
+          Would you like a personalized Defined Benefit Life proposal? There is
+          no cost or obligation. Complete the fields below and you'll be
+          contacted within 24 hours.
+        </p>
+      </div>
+      <div class="formDiv">
+        <h1>Take an important step toward a more secure retirement.</h1>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" required />
+          </div>
+          <div>
+            <label for="stAd">Street Address*</label>
+            <input type="text" name="stAd" />
+          </div>
+          <div>
+            <label for="stAd2">Street Address 2*</label>
+            <input type="text" name="stAd2" />
+          </div>
+          <div>
+            <label for="city">City*</label>
+            <input type="text" name="city" />
+          </div>
+          <div>
+            <label for="state">State*</label>
+            <input type="state" name="state" required />
+          </div>
+          <div>
+            <label for="postal">Postal/Zip code*</label>
+            <input type="text" name="postal" />
+          </div>
+          <div>
+            <label for="phone">Phone*</label>
+            <input type="text" name="phone" />
+          </div>
+          <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" />
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+      <div class="below">
+        <h1>Matt Wilson Safe Money Strategies</h1>
+        <p>
+          1008 Main St. <br />
+
+          Suite 300 <br />
+
+          Anytown, ST 99900 <br />
+
+          (555) 1212 <br />
+
+          mwilson#wilsonsms.com
+        </p>
+      </div>
+    </main>
+    <footer>
+      (C)Copyright 2025 Wealth2k, Inc. All rights reserved. Defined Benefit Life
+      is a trademark of Wealth2k, Inc..
+    </footer>
+    <div class="btnToTop">
+      <button>
+        <svg
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="30px"
+          height="30px"
+          viewBox="0 0 284.929 284.929"
+          style="enable-background: new 0 0 284.929 284.929"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285 C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854 c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848 c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566 C284.929,199.378,283.984,197.188,282.082,195.285z"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
+    <script>
+      const checkbox = document.getElementById("recaptchaCheckbox");
+      const spinner = document.querySelector(".spinner");
+      const tick = document.querySelector(".tick");
+
+      checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+          spinner.style.display = "block";
+          tick.style.display = "none";
+
+          setTimeout(() => {
+            spinner.style.display = "none";
+            tick.style.display = "block";
+          }, 1500); // simulate verification delay
+        } else {
+          tick.style.display = "none";
+        }
+      });
+    </script>
+
+    <script src="/js/BackToTop.js"></script>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>

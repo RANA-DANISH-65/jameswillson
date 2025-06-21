@@ -1,0 +1,1025 @@
+* {
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+
+  overflow-x: hidden;
+}
+body {
+  background-color: black;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* Core Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: rgb(25, 25, 25);
+  color: #fff;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.logo h1 {
+  font-weight: 400;
+  font-size: 34px;
+  margin: 0;
+}
+
+.logo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li:nth-child(2) a {
+  color: red;
+}
+
+/* Hamburger Button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+main {
+  color: white;
+}
+.firstDiv {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstDiv img {
+  width: 40%;
+}
+.firstDiv h1 {
+  margin-top: 20px;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.firstDiv h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -15px;
+}
+.secondDiv {
+  margin-block: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.secondDiv div {
+  padding-top: 60px;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondDiv div h5 {
+  width: 100%;
+  background-color: red;
+  font-size: 22px;
+  font-weight: 300;
+}
+.secondDiv .one {
+  background: url(./assets/one.avif) no-repeat center center;
+  background-size: contain;
+}
+.secondDiv .second {
+  background: url(./assets/two.avif) no-repeat center center;
+  background-size: contain;
+}
+.secondDiv .third {
+  background: url(./assets/three.avif) no-repeat center center;
+  background-size: contain;
+}
+.secondDiv .fourth {
+  background: url(./assets/four.avif) no-repeat center center;
+  background-size: contain;
+}
+.thirdDiv {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.thirdDiv img {
+  width: 300px;
+  height: 500px;
+}
+.thirdDiv div {
+  width: 500px;
+}
+.thirdDiv div .headings {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.headings h6 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.headings h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.thirdDiv div .money {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.money div {
+  display: flex;
+  justify-content: space-between;
+}
+.money div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  line-height: 5px;
+}
+.money div div h5 {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(74, 205, 222);
+}
+.money div div p {
+  margin-top: -20px;
+  font-size: 22px;
+}
+
+.fourthDiv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.fourthDiv div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.fourthDiv div h2 {
+  font-size: 45px;
+  font-weight: 200px;
+}
+.fourthDiv div p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.fourthDiv img {
+  height: 400px;
+}
+
+.fifthDiv {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifthDiv img {
+  width: 60%;
+}
+.fifthDiv .paroDad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 40px;
+}
+.paroSon{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.paroSon h3{
+
+  font-size: 40px;
+  font-weight: 400;
+}
+.paroSon h4{
+  font-size: 40px;
+  font-weight: 300;
+  color: aqua;
+}
+.paro1{
+  font-size: 20px;
+  color: #cecece;
+  margin-bottom: 20px;
+}
+.paro2 {
+  font-size: 27px;
+  color: #ccc;
+  margin-block: 5px;
+}
+
+.paro3 {
+  font-size: 27px;
+  color: #ccc;
+  margin-block: 5px;
+}
+.paroMom{
+    margin-top: 64px;
+    font-size: 32px;
+    width: 80%;
+}
+.sixDiv {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sixDiv img {
+  width: 73%;
+}
+.sixDiv div{
+  display: flex;
+  margin-top: 30px;
+}
+
+.sixDiv div div{
+  display: flex;
+  padding-inline: 20px;
+  flex-direction: column;
+}
+.oneDiv{
+  width: fit-content;
+  text-align: center;
+}
+.oneDiv div h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+.oneDiv div p{
+  color: #ccc;
+  font-size: 22px;
+}
+}
+.twoDiv{
+  width: fit-content;
+  text-align: center;
+}
+.twoDiv div h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+.twoDiv div p{
+  text-align: center;
+  color: #ccc;
+  font-size: 22px;
+}
+.colorit{
+  color: aqua;
+}
+.sevenDiv {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sevenDiv img{
+  margin-top: 60px;
+  width: 70%;
+}
+.sevenDiv div{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.sevenDiv div img{
+
+  width: 40%;
+  height: 150px;
+}
+.sevenDiv .bannerDiv p{
+
+  color: #cecece;
+  width: 30%;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+.sevenDiv .downDiv{
+  margin-top: 100px;
+}
+.downP{
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.eightDiv{
+  margin-top: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.eightDiv img{
+  margin-top: 50px;
+  width: 40%;
+}
+.eightDiv .eightContainer {
+  margin-top: 40px;
+  display: flex;
+  width: 80%;
+  gap: 45px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.eightContainer .containerA{
+  width: 55%;
+  font-size: 18px;
+  line-height: 30px;
+}
+.containerA img{
+  width: 100%;
+}
+.containerB{
+  width: 45%;
+  font-size: 17px;
+    line-height: 25px;
+}
+.containerB img{
+  width: 100%;
+}
+
+.nineDiv{
+  padding: 40px 20px 20px 20px;
+  color: black;
+  background-color: rgb(191,191,191);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.nineA{
+  padding-left: 60px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.nineA h3{
+  font-size: 3.5rem;
+  font-weight: 400;
+    text-align: center;
+}
+.nineA p{
+ text-align: center;
+}
+.nineB {
+  /* width: 70%; */
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-inline: 80px;
+}
+.nineBA{
+  width: 60%;
+}
+.nineBA p{
+  font-size: 16px;
+  text-align: center;
+}
+.nineBB{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-top: 40px;
+  width: 40%;
+}
+.nineBB img{
+ width: 100%; 
+}
+
+.tenDiv{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+  background-color: white;
+  color: black;
+  flex-direction: column;
+  padding-top: 20px;
+  padding: 20px;
+}
+.tenA{
+  width: 80%;
+}
+.tenA h4{
+  font-size: 4rem;
+  font-weight:500 ;
+}
+.tenA h5{
+  margin-top: 5px;
+  font-size: 3rem;
+  font-weight:400 ;
+}
+.tenA p{
+  width: 70%;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.tenB{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 70px;
+
+}
+.tenB img {
+  width: 600px;
+  height: 250px;
+  outline: 2px solid #cecece;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow */
+  border-radius: 8px; /* Optional: smooth corners */
+}
+
+.tenB p{
+  text-align: center;
+      width: 50%;
+    font-size: 18px;
+}
+
+.tenC{
+ margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 70px;
+
+}
+.tenC img{
+ width: 600px;
+  height: 250px;
+  outline: 2px solid #cecece;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow */
+  border-radius: 8px; /* Optional: smooth corners */
+}
+.tenC p{
+ text-align: center;
+      width: 50%;
+    font-size: 18px;
+}
+.elDiv{
+  background: rgb(191,191,191);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+.elA{
+  width: 70%;
+}
+.elA h1{
+  font-size: 4rem;
+  font-weight: 400;
+}
+.elB{
+  width: 70%;
+  display: flex;
+    gap: 40px;
+}
+.elBA img{
+  width: 450px;
+}
+.elBB p {
+  line-height: 25px;
+}
+.telDiv{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.telDiv .telA{
+  width: 50%;
+}
+.telA img{
+  width: 85%;
+}
+.telA p{
+  font-size: 22px;
+  text-align: center;
+}
+.telB{
+  display: flex;
+  gap: 40px;
+    width: 50%;
+}
+.telB img{
+  width: 50%;
+}
+
+.thirDiv{
+  background:white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.thirA{
+  width: 70%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+.thirA div{
+  z-index: 12;
+}
+.thirA div h1{
+  font-size: 3.5rem;
+  font-weight: 400;
+  z-index: 12;
+}
+.thirA div p{
+  width: 50%;
+  font-size: 18px;
+}
+.thirA img{
+  position: absolute;
+  width: 500px;
+  right: -80px;
+  bottom: 50px;
+  z-index: 1;
+}
+ .planBtn{
+  padding: 10px 40px 10px 40px ;
+  background-color: black;
+  color: white;
+  outline: none;
+  font-size: 18px;
+}
+.paro a{
+  text-decoration: none;
+  color: black;
+}
+.fourtDiv{
+  color: white;
+ 
+  background:url(./assets/moneybg.avif) no-repeat bottom right;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px 60px 80px;
+  align-items: start;
+}
+.fourtDiv h1{
+  font-size: 4rem ;
+  font-weight: 400;
+}
+.fourtDiv .firstPara{
+  font-size: 22px;
+  line-height: 30px;
+  width: 40%;
+}
+.fourtDiv  .secPara{
+  font-size: 22px;
+}
+.fourtA{
+  color: white;
+}
+.gapla{
+  width: 65%;
+}
+.paro{
+  margin-top: 40px;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+}
+footer {
+  margin-top: 20px;
+  padding: 30px 40px 30px 40px;
+  text-align: center;
+  color: white;
+  background-color: rgb(135, 135, 135);
+}
+.btnToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.btnToTop svg {
+  width: 70px;
+  height: 70px;
+  padding: 9px;
+  border-radius: 7px;
+  /* background: #6e6e6e; */
+  fill: #c2c2c2;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btnToTop svg:hover {
+  background: #222222;
+  fill: #d1d1d1;
+}
+
+@media (max-width: 888px) {
+  .fourtDiv h1{
+    font-size: 7rem;
+  }
+  .fourtDiv .firstPara{
+    width: 80%;
+  }
+  .fourtDiv .secPara{
+   margin-block: 20px;
+  }
+  .gapla{
+    width: 80%;
+  }
+  .thirDiv .thirA{
+    width: 95%;
+  }
+ .telDiv .telA{
+    width: 70%;
+  }
+  .telA img{
+    width: 100%;
+  }
+  .telA p{
+    font-size: 25px;
+            margin-block: 20px;
+
+  }
+  .telB{
+    width: 75%;
+  }
+  .elB{
+    width: 95%;
+  }
+  .tenB{
+    flex-direction: column;
+  }
+  .tenB p{
+    width: 80%;
+  }
+  .tenC{
+    flex-direction: column;
+  }
+  .tenC p{
+    width: 80%;
+  }
+  .nineB{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .fifthDiv{
+    margin-top: 100px;
+  }
+  .fifthDiv img{
+    width: 80%;
+  }
+  .fourthDiv{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+ .thirdDiv{
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+ }
+ .thirdDiv div{
+  width: 590px;
+ }
+ .headings h6 {
+    font-size: 26px;
+}
+.headings h3{
+  margin-top: 20px;
+  font-weight: 600;
+}
+.thirdDiv p{
+  font-size: 20px;
+}
+  nav {
+    display: none;
+    width: 100%;
+  }
+
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .secondDiv div{
+    width: 210px;
+  }
+}
+@media (max-width:755px){
+  .fourtDiv h1{
+    font-size: 5rem;
+  }
+}
+@media(max-width:650px){
+  .fourtDiv{
+        background: url(./assets/moneybg.avif) no-repeat left;
+    object-fit: cover;
+        padding: 50px 50px 30px 40px;
+  }
+  .fourtDiv h1{
+    color: white;
+  }
+  .gapla{
+    width: 90%;
+  }
+  .thirA img{
+    position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+  }
+  .thirA div h1{
+    font-size: 2.5rem;
+  }
+  .thirA div p{
+    width: 75%;
+  }
+  .thirA{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  .telDiv{
+    margin-top: 40px;
+  }
+  .elB{
+    flex-direction: column;
+    font-size: 18px;
+  }
+  .tenA p{
+    width: 90%;
+  }
+  .tenB img{
+    width: 90%;
+  }
+  .tenC img{
+    width: 90%;
+  }
+  .nineB{
+    width: 100%;
+  }
+  .nineDiv{
+    padding: 21px 0px 4px 0px;
+  }
+  .nineBA{
+    width: 100%;
+  }
+  .nineBB{
+        margin-top: 0px;
+    width: 80%;
+  }
+  .nineB p{
+    width: 100%;
+  }
+  .eightDiv img{
+    width: 90%;
+  }
+    .eightContainer .containerA{
+    width: 100%;
+  }
+  .eightContainer .containerB{
+    width: 100%;
+  }
+  .eightContainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .sevenDiv{
+    margin-top: 0;
+  }
+  .sevenDiv img{
+    width: 95%;
+  }
+  .sevenDiv div{
+    flex-direction: column;
+    margin-top: -23px;
+  }
+  .sevenDiv .bannerDiv p{
+    width: 85%;
+    margin-top: 30px;
+  }
+  .downP{
+    width: 90%;
+    font-size: 27px;
+  }
+  .sevenDiv div img{
+    width: 80%;
+  }
+  .sixDiv div{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sixDiv img{
+    width: 90%;
+  }
+  .fifthDiv .paroDad{
+    flex-direction: column;
+  }
+  .fourthDiv div p{
+    font-size: 18px;
+    width: 90%;
+  }
+  .firstDiv h1{
+    font-size: 3rem;
+  }
+  .firstDiv img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 600px) {
+  .elA{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .fourthDiv div{
+
+    padding: 20px;
+  }
+  .fifthDiv img{
+    width: 90%;
+  }
+  .fourthDiv div h2 {
+    font-size: 35px;
+
+}
+  .thirdDiv div {
+    width: 90%;
+  }
+  .logo h1 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+  }
+.firstDiv h1{
+    font-size: 2.5rem;
+  }
+.firstDiv h4{
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  .logo h3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+  }
+  .secondDiv div{
+           gap: 30px;
+  }
+}
+@media (max-width:500px) {
+  .fourtDiv h1{
+    width: 100%;
+    font-size: 3rem;
+  }
+  .fourtDiv .firstPara{
+    width: 100%;
+  }
+  .telDiv .telB{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .telDiv .telB img{
+    width: 90%;
+  }
+  .elA{
+    width: 96%;
+    font-size: 2.5rem;
+  }
+  .tenA h4{
+    font-size: 2.75rem;
+  }
+  .tenA p{
+    width: 95%;
+  }
+
+  .paro1{
+    font-size: 20px;
+  }
+  .firstDiv img {
+    width: 70%;
+}
+.secondDiv div{
+  padding-top: 30px;
+}
+}
+@media (max-width: 420px) {
+  .tenA h4{
+    font-size: 2.25rem;
+  }
+  .tenA h5{
+    font-size: 2.25rem;
+  }
+  .thirdDiv div{
+    width: 95%;
+  }
+  header {
+    padding: 20px;
+  }
+  .menu-toggle {
+    margin-top: 20px;
+  }
+  .logo h1 {
+    font-size: 18px;
+  }
+    .firstDiv img {
+    width: 90%;
+}
+.firstDiv h1 {
+        font-size: 2rem;
+    }
+    .firstDiv h4 {
+        font-size: 1rem;
+      
+    }
+}

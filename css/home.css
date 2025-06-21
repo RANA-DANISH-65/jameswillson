@@ -1,0 +1,407 @@
+* {
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+
+  overflow-x: hidden;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* Core Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: rgb(25, 25, 25);
+  color: #fff;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.logo h1 {
+  font-weight: 400;
+  font-size: 34px;
+  margin: 0;
+}
+
+.logo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li:first-child a {
+  color: red;
+}
+
+/* Hamburger Button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.video_section {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video_section h1 {
+  font-weight: 400;
+  font-size: 72px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.video_div {
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 700px;
+  z-index: 1;
+}
+
+.thumbnail_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.thumbnail_overlay img {
+  width: 700px;
+  border-radius: 8px;
+}
+
+.play_icon {
+  position: absolute;
+  font-size: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.play_icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.proposalbtn {
+  background-color: black;
+  color: white;
+  padding-inline: 14px;
+  padding-block: 14px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.bottom_section {
+  margin-top: 40px;
+  background-color: black;
+}
+.bottom_section .video {
+  height: 70vh;
+}
+.quote {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote h3 {
+  font-size: 35px;
+  width: 50%;
+  font-weight: 400;
+  text-align: left;
+}
+.quote p {
+  font-size: 20px;
+  margin-top: 40px;
+  width: 60%;
+  text-align: left;
+}
+.protest {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.protest h1 {
+  color: red;
+  font-size: 7vw;
+}
+.protest h4 {
+  color: red;
+  font-size: 40px;
+  font-weight: 400;
+
+  text-align: left;
+  width: 65%;
+}
+.protest div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.protest div p {
+  width: 45%;
+  margin-top: 20px;
+}
+.sourcepara {
+  justify-self: right;
+  align-self: flex-end;
+  width: 40%;
+  padding-right: 30px;
+  text-align: right;
+}
+.videoGala {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap; /* for mobile responsiveness */
+}
+
+.video_box {
+  width: 700px;
+  position: relative;
+}
+.brochure_box {
+  position: relative;
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video_box video {
+  width: 100%;
+
+  z-index: 1;
+}
+
+.video_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.video_overlay img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.play_icon {
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.brochure_box img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.download_btn {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: 60px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 30px 40px 30px 40px;
+  text-align: center;
+  color: white;
+  background-color: rgb(135, 135, 135);
+}
+
+.btnToTop{
+     position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.btnToTop svg {
+    width: 70px;
+    height: 70px;
+    padding: 9px;
+    border-radius: 7px;
+    /* background: #6e6e6e; */
+    fill: #c2c2c2;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .btnToTop svg:hover {
+    background: #222222;
+    fill: #d1d1d1;
+  }
+/*MEDIA QUERIES*/
+
+/* Responsive Styles */
+@media (max-width: 888px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+    width: 100%;
+  }
+
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .video_section h1{
+    font-size: 50px;
+  }
+  .protest div p{
+    width: 60%;
+    font-size: 18px;
+  }
+  .quote h3{
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .logo h1 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .logo h3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+  }
+  .video_section h1{
+    font-size: 35px;
+  }
+  .protest div p{
+    width: 90%;
+  }
+  .quote h3{
+    width: 90%;
+  }
+  .sourcepara{
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+
+  }
+  .protest h4{
+    width: 90%;
+  }
+}
+@media (max-width:500px){
+  .video_div{
+    height: 50vh;
+  }
+  .protest h1{
+    font-size: 10vw;
+  }
+}
+@media (max-width: 420px) {
+  header{
+    padding: 20px;
+  }
+  .menu-toggle {
+    margin-top: 20px;
+  }
+  .logo h1{
+    font-size: 18px;
+  }
+  .video_section h1{
+    font-size: 25px;
+  }
+  .video_div{
+    height: 40vh;
+  }
+}
