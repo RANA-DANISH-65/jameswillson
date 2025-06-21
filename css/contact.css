@@ -85,13 +85,13 @@ nav ul li a:hover{
 }
 
 .formDiv {
-  margin-top: 40px;
+  margin-top: 110px;
   padding-left: 20%;
   margin-bottom: 20px;
 }
 .formDiv h1 {
   width: 40%;
-  font-size: 40px;
+font-size: 41px;
   font-weight: 200;
 }
 .formDiv form {
@@ -135,20 +135,23 @@ nav ul li a:hover{
 
 .below {
   background: rgb(191, 191, 191);
-  padding: 80px 0px 80px 120px;
+  padding: 80px 0px 80px 140px;
 }
 .below h1 {
   font-weight: 400;
   font-size: 40px;
+  margin-bottom: 20px;
 }
 .below p {
   font-size: 20px;
   line-height: 40px;
 }
 footer {
-  padding: 30px 40px 30px 40px;
+
+  padding: 30px 40px 80px 40px;
   text-align: center;
   color: white;
+  font-size: 14px;
   background-color: rgb(135, 135, 135);
 }
 .btnToTop {

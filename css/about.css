@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    padding: 45px 127px 32px 20px;
+  padding: 45px 127px 32px 20px;
   background: rgb(25, 25, 25);
   color: #fff;
   position: relative;
@@ -55,7 +55,7 @@ nav ul li a {
 nav ul li:nth-child(4) a {
   color: red;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: white;
 }
 /* Hamburger Button */
@@ -78,45 +78,60 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .about {
   background-color: white;
-  width: 70%;
-  padding: 80px 100px 80px 100px;
+  width: calc(100% - 80px - 80px);
+  /* padding: 80px 100px 80px 100px; */
 }
 .about h1 {
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 38px;
+  margin: 82px 0px 40px calc((100% - 980px) * 0.5);
+  width: 795px;
+  height: auto;
 }
 .about p {
   width: 75%;
   font-size: 16px;
   line-height: 40px;
 }
+.cuc {
+  margin: 0px 0px 70px calc((100% - 980px) * 0.5);
+}
+.cuc p {
+  font-size: 16px;
+  line-height: 44px;
+}
 .contact {
   margin-top: 40px;
   margin-bottom: 30px;
   background-color: white;
-  width: 70%;
-  padding: 80px 100px 80px 100px;
+  width: calc(100% - 80px - 80px);
+  padding: 80px 190px 80px 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .contact div h3 {
-  font-size: 35px;
+  font-size: 38px;
+  margin-bottom: 10px;
   font-weight: 400;
+}
+.ekNum{
+
+  align-self: flex-end;
 }
 .contact div a {
   color: black;
+  text-decoration: underline;
 }
 footer {
-  margin-top: 20px;
-  padding: 30px 40px 30px 40px;
+  padding: 30px 40px 80px 40px;
   text-align: center;
   color: white;
+  font-size: 14px;
   background-color: rgb(135, 135, 135);
 }
 .btnToTop {

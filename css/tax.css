@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    padding: 45px 127px 32px 20px;
+  padding: 45px 127px 32px 20px;
   background: rgb(25, 25, 25);
   color: #fff;
   position: relative;
@@ -57,7 +57,7 @@ nav ul li a {
 nav ul li:nth-child(3) a {
   color: red;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: white;
 }
 /* Hamburger Button */
@@ -82,36 +82,37 @@ main {
   align-items: center;
 }
 .headingDiv {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 7px;
 }
 .headingDiv h1 {
-  font-size: 60px;
+  font-size: 61px;
   font-weight: 400;
 }
 .headingDiv h3 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 400;
 }
 
 .paraDiv {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 60px;
   align-items: center;
-  padding: 0, 20, 0, 20;
-  gap: 10px;
+  gap: 62px;
 }
 .paraDiv p {
-  width: 30%;
+  width: 27%;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4em;
 }
 .people {
   width: 80%;
-  margin-top: 30px;
+  margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -137,17 +138,26 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
 }
 .bottomParas p {
-  font-size: 22px;
-  width: 52%;
+  width: 48%;
   text-align: center;
+}
+.gando{
+
+     margin-top: 46px;
+     margin-bottom: 15px;
+
 }
 footer {
   margin-top: 20px;
-  padding: 30px 40px 30px 40px;
+  padding: 30px 40px 80px 40px;
   text-align: center;
   color: white;
+  font-size: 14px;
   background-color: rgb(135, 135, 135);
 }
 .btnToTop {
