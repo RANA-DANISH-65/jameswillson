@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px;
+  padding: 45px 127px 32px 20px;
   background: rgb(25, 25, 25);
   color: #fff;
   position: relative;
@@ -26,7 +26,7 @@ header {
 
 .logo h1 {
   font-weight: 400;
-  font-size: 34px;
+  font-size: 36px;
   margin: 0;
 }
 
@@ -48,12 +48,14 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  font-size: 16px;
 }
-
 nav ul li:first-child a {
   color: red;
 }
-
+nav ul li a:hover {
+  color: white;
+}
 /* Hamburger Button */
 .menu-toggle {
   display: none;
@@ -69,37 +71,45 @@ nav ul li:first-child a {
   border-radius: 2px;
 }
 
+.wowImg {
+  width: 100vw;
+}
 .video_section {
   text-align: center;
   margin-top: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .video_section h1 {
-  font-weight: 400;
-  font-size: 72px;
-  color: rgb(0, 0, 0);
-  margin: 0;
-  padding: 0;
+  font-weight: normal;
+  font-size: 52px;
+  color: #2f2e2e;
+  position: relative;
+  margin: 20px 0px 20px 0px;
 }
 
 .video_div {
   position: relative;
-  height: 70vh;
-  width: 100vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 851px;
+  height: 479px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 video {
-  width: 700px;
+  width: 100%;
   z-index: 1;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.87);
 }
 
 .thumbnail_overlay {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -113,7 +123,7 @@ video {
 }
 
 .thumbnail_overlay img {
-  width: 700px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -121,14 +131,11 @@ video {
   position: absolute;
   font-size: 80px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
+  border: 2px solid white;
   padding: 20px;
   transition: 0.3s;
-}
-
-.play_icon:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: none;
 }
 
 .proposalbtn {
@@ -140,6 +147,12 @@ video {
   outline: none;
   font-size: 20px;
 }
+.proposalbtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
 .bottom_section {
   margin-top: 40px;
   background-color: black;
@@ -149,7 +162,7 @@ video {
 }
 .quote {
   color: white;
-  margin-top: 50px;
+  margin-top: 75px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -157,16 +170,19 @@ video {
   align-items: center;
 }
 .quote h3 {
-  font-size: 35px;
-  width: 50%;
+ overflow: hidden;
+     font-size: 47px;
+    line-height: 1.1em;
+  width: 67%;
   font-weight: 400;
   text-align: left;
 }
-.quote p {
-  font-size: 20px;
-  margin-top: 40px;
+.quote .quotePara {
+  font-size: 28px;
+  margin-top: 70px;
   width: 60%;
   text-align: left;
+  margin-left: -160px;
 }
 .protest {
   color: white;
@@ -176,17 +192,10 @@ video {
   align-items: center;
   gap: 0;
 }
-.protest h1 {
-  color: red;
-  font-size: 7vw;
-}
-.protest h4 {
-  color: red;
-  font-size: 40px;
-  font-weight: 400;
-
-  text-align: left;
-  width: 65%;
+.protest .dateImg{
+ height: 151px;
+  width: 888px;
+  margin-block: 25px;
 }
 .protest div {
   display: flex;
@@ -194,33 +203,55 @@ video {
   align-items: center;
 }
 .protest div p {
-  width: 45%;
+  font-size: 20px;
+  width: 53%;
+      line-height: 1.5em;
   margin-top: 20px;
 }
 .sourcepara {
-  justify-self: right;
+  justify-self: center;
+  font-size: 12px;
+  margin-top: 20px;
   align-self: flex-end;
-  width: 40%;
+  width: 35%;
   padding-right: 30px;
-  text-align: right;
+  text-align: left;
+  margin-right: 80px;
+  margin-bottom: 20px;
 }
 .videoGala {
+  position: relative;
   display: flex;
-  justify-content: space-evenly;
-  align-items: start;
-  gap: 40px;
-  padding: 40px;
-  flex-wrap: wrap; /* for mobile responsiveness */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  /* height: 80vh; */
+
+  /* for mobile responsiveness */
 }
 
 .video_box {
-  width: 700px;
+  width: 70%;
+
+  /* height: 70%; */
   position: relative;
 }
+.videoGalaPara {
+  position: absolute;
+  color: white;
+  z-index: 12;
+  font-size: 1.75rem;
+  width: 18%;
+  left: 5%;
+  top: 30%;
+}
 .brochure_box {
-  position: relative;
-  width: 350px;
-
+  position: absolute;
+  width: 250px;
+  right: 14%;
+  top: 07%;
+  z-index: 12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,13 +287,13 @@ video {
   position: absolute;
   font-size: 60px;
   color: white;
-  background: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   padding: 15px;
 }
 
 .brochure_box img {
   width: 100%;
+  height: 100%;
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 10px;
@@ -276,38 +307,38 @@ video {
 }
 
 footer {
-  margin-top: 20px;
-  padding: 30px 40px 30px 40px;
+  padding: 30px 40px 80px 40px;
   text-align: center;
   color: white;
+  font-size: 14px;
   background-color: rgb(135, 135, 135);
 }
 
-.btnToTop{
-     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+.btnToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
 }
 
 .btnToTop svg {
-    width: 70px;
-    height: 70px;
-    padding: 9px;
-    border-radius: 7px;
-    /* background: #6e6e6e; */
-    fill: #c2c2c2;
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    transition: all .1s ease-in-out;
-    cursor: pointer;
-    background: transparent;
-  }
-  
-  .btnToTop svg:hover {
-    background: #222222;
-    fill: #d1d1d1;
-  }
+  width: 70px;
+  height: 70px;
+  padding: 9px;
+  border-radius: 7px;
+  /* background: #6e6e6e; */
+  fill: #c2c2c2;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btnToTop svg:hover {
+  background: #222222;
+  fill: #d1d1d1;
+}
 /*MEDIA QUERIES*/
 
 /* Responsive Styles */
@@ -338,14 +369,14 @@ footer {
     padding: 10px 20px;
     width: 100%;
   }
-  .video_section h1{
+  .video_section h1 {
     font-size: 50px;
   }
-  .protest div p{
+  .protest div p {
     width: 60%;
     font-size: 18px;
   }
-  .quote h3{
+  .quote h3 {
     width: 70%;
   }
 }
@@ -361,47 +392,46 @@ footer {
     font-size: 16px;
     margin: 0;
   }
-  .video_section h1{
+  .video_section h1 {
     font-size: 35px;
   }
-  .protest div p{
+  .protest div p {
     width: 90%;
   }
-  .quote h3{
+  .quote h3 {
     width: 90%;
   }
-  .sourcepara{
+  .sourcepara {
     margin-top: 20px;
     width: 80%;
     margin-bottom: 20px;
-
   }
-  .protest h4{
+  .protest h4 {
     width: 90%;
   }
 }
-@media (max-width:500px){
-  .video_div{
+@media (max-width: 500px) {
+  .video_div {
     height: 50vh;
   }
-  .protest h1{
+  .protest h1 {
     font-size: 10vw;
   }
 }
 @media (max-width: 420px) {
-  header{
+  header {
     padding: 20px;
   }
   .menu-toggle {
     margin-top: 20px;
   }
-  .logo h1{
+  .logo h1 {
     font-size: 18px;
   }
-  .video_section h1{
+  .video_section h1 {
     font-size: 25px;
   }
-  .video_div{
+  .video_div {
     height: 40vh;
   }
 }

@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px;
+    padding: 45px 127px 32px 20px;
   background: rgb(25, 25, 25);
   color: #fff;
   position: relative;
@@ -30,7 +30,7 @@ header {
 
 .logo h1 {
   font-weight: 400;
-  font-size: 34px;
+  font-size: 36px;
   margin: 0;
 }
 
@@ -57,7 +57,9 @@ nav ul li a {
 nav ul li:nth-child(3) a {
   color: red;
 }
-
+nav ul li a:hover{
+  color: white;
+}
 /* Hamburger Button */
 .menu-toggle {
   display: none;
