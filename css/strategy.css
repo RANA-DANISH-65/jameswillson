@@ -229,7 +229,7 @@ main {
   margin-bottom: 50px;
 }
 .fourthDiv div p {
-      font-size: 19px;
+  font-size: 19px;
   line-height: 30px;
 }
 .fourthDiv img {
@@ -261,14 +261,14 @@ main {
   text-align: center;
 }
 .paroSon h3 {
-     font-size: 33px;
+  font-size: 33px;
   font-weight: 400;
 }
 .paroSon h4 {
   font-family: fahkwang, sans-serif;
   font-size: 42px;
   font-weight: 300;
-  color: #A3D9F6;
+  color: #a3d9f6;
 }
 .paro1 {
   font-family: fahkwang, sans-serif;
@@ -289,7 +289,7 @@ main {
 }
 .paroMom {
   margin-top: 45px;
-font-size: 24px;
+  font-size: 24px;
   width: 55%;
 }
 .sixDiv {
@@ -317,7 +317,7 @@ font-size: 24px;
 .oneDiv {
   width: fit-content;
   text-align: center;
-} 
+}
 .oneDiv div h3 {
   font-size: 33px;
   font-weight: 300;
@@ -342,12 +342,12 @@ font-size: 24px;
   font-size: 22px;
 }
 .colorit {
-   font-family: fahkwang, sans-serif;
+  font-family: fahkwang, sans-serif;
   font-size: 42px;
   font-weight: 300;
-  color: #A3D9F6;
+  color: #a3d9f6;
   margin-top: 20px;
-} 
+}
 .sevenDiv {
   margin-top: 40px;
   display: flex;
@@ -417,7 +417,7 @@ font-size: 24px;
 .containerA img {
   width: 100%;
 }
-.containerA p{
+.containerA p {
   font-size: 18px;
   line-height: 30px;
 }
@@ -426,7 +426,7 @@ font-size: 24px;
 
   line-height: 30px;
 }
-.containerB p{
+.containerB p {
   font-size: 16px;
 }
 .containerB img {
@@ -468,9 +468,9 @@ font-size: 24px;
   width: 43%;
 }
 .nineBA p {
-font-size: 15px;
-    line-height: 1.8em;
-    text-align: center;
+  font-size: 15px;
+  line-height: 1.8em;
+  text-align: center;
 }
 .nineBB {
   display: flex;
@@ -486,7 +486,7 @@ font-size: 15px;
 
 .tenDiv {
   display: flex;
-padding-bottom: 20px;
+  padding-bottom: 20px;
   justify-content: center;
   background-color: white;
   color: black;
@@ -503,7 +503,7 @@ padding-bottom: 20px;
 }
 .tenA h5 {
   margin-top: 5px;
-  font-size:45px;
+  font-size: 45px;
   font-weight: 400;
 }
 .tenA p {
@@ -536,7 +536,7 @@ padding-bottom: 20px;
 }
 
 .tenC {
- margin-top: 80px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -544,14 +544,14 @@ padding-bottom: 20px;
   gap: 20px;
 }
 .tenC img {
- width: 500px;
+  width: 500px;
   height: 250px;
   outline: 2px solid #cecece;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow */
   border-radius: 8px; /* Optional: smooth corners */
 }
 .tenC p {
- text-align: left;
+  text-align: left;
   width: 50%;
   font-size: 16px;
   line-height: 1.6em;
@@ -591,13 +591,13 @@ padding-bottom: 20px;
 .elBA img {
   width: 450px;
 }
-.canim{
+.canim {
   font-size: 14px;
   text-align: center;
   color: #6b6a6a;
 }
-.elBB{
-  width: 120%; 
+.elBB {
+  width: 120%;
 }
 .elBB p {
   font-size: 16px;
@@ -654,20 +654,23 @@ padding-bottom: 20px;
   z-index: 12;
 }
 .thirA div h1 {
-  font-size: 3.5rem;
+  font-size: 56px;
   font-weight: 400;
   z-index: 12;
 }
 .thirA div p {
-  width: 50%;
-  font-size: 18px;
+  width: 53%;
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: 5px;
 }
 .thirA img {
   position: absolute;
-  width: 500px;
-  right: -80px;
-  bottom: 50px;
+  right: -50px;
+  bottom: 20px;
   z-index: 1;
+  width: 536px;
+  right: -80px;
 }
 .planBtn {
   padding: 10px 40px 10px 40px;
@@ -676,48 +679,105 @@ padding-bottom: 20px;
   outline: none;
   font-size: 18px;
 }
+.planBtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  color: black;
+}
 .paro a {
   text-decoration: none;
   color: black;
 }
 .fourtDiv {
-  color: white;
-
-  background: url(./assets/moneybg.avif) no-repeat bottom right;
-  object-fit: contain;
+  width: 100vw;
+  position: relative;
   display: flex;
   flex-direction: column;
-  padding: 100px 100px 60px 80px;
-  align-items: start;
+
+  /* justify-content: center; */
+  padding-left: 15px;
 }
-.fourtDiv h1 {
-  font-size: 4rem;
+.fourtDiv .aikDiv {
+  margin: 130px 0px 47px calc((100% - 980px) * 0.5);
+  width: fit-content;
+}
+.fourtDiv .doDiv {
+  position: relative;
+  margin: 0px 0px 58px calc((100% - 980px) * 0.5);
+  /* left: 47px; */
+  width: 30%;
+  height: 40%;
+}
+.doDiv p {
+  font-size: 21px;
+}
+.aikDiv h1 {
+  font-size: 58px;
   font-weight: 400;
 }
-.fourtDiv .firstPara {
+.fourtDiv img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.teenDiv {
+  margin: 0px 0px 9px calc((100% - 980px) * 0.5);
+  font-size: 19px;
+}
+.fourdiv {
+  position: relative;
+  margin: 43px 0px 44px calc((100% - 980px) * 0.5);
+  display: flex;
+  /* justify-content: center; */
+
+  align-items: center;
+  gap: 20px;
+}
+.fourdiv h5 {
+  font-size: 46px;
+  font-weight: bold;
+}
+.fourdiv span {
   font-size: 22px;
-  line-height: 30px;
-  width: 40%;
+  margin: 0px 0px 0px 20px;
 }
-.fourtDiv .secPara {
+.varja {
+  position: absolute;
+  top: 86px;
+  left: 217px;
   font-size: 22px;
 }
-.fourtA {
-  color: white;
+.fivdiv {
+  margin: 0px 0px 47px calc((100% - 980px) * 0.5);
+  font-size: 19px;
 }
-.gapla {
-  width: 65%;
+.sidiv {
+  margin: 0px 0px 35px calc((100% - 980px) * 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.paro {
-  margin-top: 40px;
+.sidiv button {
   padding: 10px 15px 10px 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
   font-size: 20px;
 }
+.sidiv button:hover {
+  background-color: black;
+  color: white;
+}
 footer {
-  margin-top: 20px;
-  padding: 30px 40px 30px 40px;
+  padding: 30px 40px 80px 40px;
   text-align: center;
   color: white;
+  font-size: 14px;
   background-color: rgb(135, 135, 135);
 }
 .btnToTop {
