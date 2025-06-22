@@ -119,8 +119,7 @@ main {
   margin-bottom: 10px;
   font-weight: 400;
 }
-.ekNum{
-
+.ekNum {
   align-self: flex-end;
 }
 .contact div a {
@@ -160,13 +159,58 @@ footer {
   fill: #d1d1d1;
 }
 /* Responsive Styles */
+
+@media (max-width: 1100px) {
+  header {
+    padding: 45px 29px 32px 20px;
+  }
+  .about h1 {
+    margin: 20px 20px 20px 120px;
+  }
+  .cuc {
+    margin: 0px 0px 0px 120px;
+  }
+}
+@media (max-width: 1000px) {
+  .menu-toggle {
+    display: flex;
+  }
+  nav {
+    display: none;
+    width: 100%;
+  }
+
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
 @media (max-width: 888px) {
   .about {
     width: 80%;
-    padding: 60px 80px 60px 80px;
+    padding: 3px 80px 0px -1px;
   }
   .menu-toggle {
     display: flex;
+  }
+  .about h1 {
+    margin: 0;
+  }
+  .cuc {
+    margin-left: 20px;
   }
 
   nav {
@@ -200,13 +244,19 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+  .about {
+    width: 90%;
+  }
+  .about h1 {
+    margin: 30px;
+  }
+  .cuc {
+    margin: 0px 0px 0px 21px;
+  }
 }
 @media (max-width: 600px) {
   .contact {
     padding: 40px 50px 40px 50px;
-  }
-  .about {
-    padding: 50px 60px 50px 60px;
   }
   .logo h1 {
     font-weight: 400;
@@ -219,23 +269,26 @@ footer {
     font-size: 16px;
     margin: 0;
   }
+  .about p {
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   .about {
     width: 90%;
-    padding: 30px 40px 30px 40px;
+    padding: 30px 29px 30px 20px;
   }
   .about p {
-    width: 90%;
+    width: 100%;
   }
 }
 @media (max-width: 420px) {
   .about {
     width: 90%;
-    padding: 20px 25px 10px 25px;
+   padding: 20px 10px 10px 4px;
   }
   .about p {
-    line-height: 25px;
+    line-height: 35px;
     text-align: center;
   }
   .about h1 {
