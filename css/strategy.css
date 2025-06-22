@@ -79,14 +79,14 @@ main {
   color: white;
 }
 .firstDiv {
-  margin-top: 40px;
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .firstDiv img {
-  width: 38%;
+  width: 33%;
 }
 .firstDiv h1 {
   margin-top: 20px;
@@ -244,7 +244,7 @@ main {
   align-items: center;
 }
 .fifthDiv img {
-  width: 60%;
+  width: 55%;
   margin-block: 85px;
 }
 .paroDad {
@@ -300,7 +300,7 @@ main {
   align-items: center;
 }
 .sixDiv img {
-  width: 63%;
+  width: 55%;
   margin-block: 40px;
 }
 .sixDiv div {
@@ -398,7 +398,7 @@ main {
 }
 .eightDiv img {
   margin-top: 50px;
-  width: 45%;
+  width: 42%;
 }
 .eightDiv .eightContainer {
   margin-top: 40px;
@@ -427,14 +427,15 @@ main {
   line-height: 30px;
 }
 .containerB p {
-  font-size: 16px;
+  font-size: 16.5px;
 }
 .containerB img {
   width: 100%;
+  margin-top: 0;
 }
 
 .nineDiv {
-  padding: 40px 20px 20px 100px;
+  padding: 40px 20px 60px 100px;
   color: black;
   background-color: rgb(191, 191, 191);
   display: flex;
@@ -448,40 +449,44 @@ main {
   text-align: left;
 }
 .nineA h3 {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 400;
   text-align: center;
 }
 .nineA p {
   text-align: center;
-  font-size: 19px;
+  font-size: 22px;
+  margin-top: 6px;
 }
 .nineB {
   /* width: 70%; */
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 50px;
   padding-inline: 80px;
   align-items: center;
 }
 .nineBA {
-  width: 43%;
+  width: 39%;
 }
 .nineBA p {
   font-size: 15px;
   line-height: 1.8em;
   text-align: center;
+  word-spacing: 5px;
 }
 .nineBB {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  /* justify-content: ; */
 
   width: 50%;
 }
 .nineBB img {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .tenDiv {
@@ -507,9 +512,9 @@ main {
   font-weight: 400;
 }
 .tenA p {
-  width: 62%;
+  width: 66%;
   margin-top: 13px;
-  font-size: 19px;
+  font-size: 22px;
   line-height: 1.3em;
 }
 .tenB {
@@ -517,7 +522,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 70%;
   gap: 20px;
 }
 .tenB img {
@@ -531,7 +536,7 @@ main {
 .tenB p {
   text-align: left;
   width: 50%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6em;
 }
 
@@ -540,7 +545,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 70%;
   gap: 20px;
 }
 .tenC img {
@@ -553,7 +558,7 @@ main {
 .tenC p {
   text-align: left;
   width: 50%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6em;
 }
 .elDiv {
@@ -574,7 +579,7 @@ main {
   font-weight: 400;
 }
 .elB {
-  width: 77%;
+  width: 75%;
   display: flex;
   gap: 40px;
   padding-bottom: 50px;
@@ -584,23 +589,25 @@ main {
   width: 470px;
 }
 .elBA p {
-  font-size: 17px;
-  line-height: 2em;
+  font-size: 19px;
+  line-height: 1.8em;
   margin-bottom: 20px;
 }
 .elBA img {
   width: 450px;
+  margin-left: 20px;
 }
 .canim {
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
-  color: #6b6a6a;
+  color: #222222;
+  width: 85%;
 }
 .elBB {
   width: 120%;
 }
 .elBB p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2em;
   width: 100%;
 }
@@ -753,13 +760,14 @@ main {
 }
 .fivdiv {
   margin: 0px 0px 47px calc((100% - 980px) * 0.5);
-  font-size: 19px;
+  font-size: 22px;
 }
 .sidiv {
-  margin: 0px 0px 35px calc((100% - 980px) * 0.5);
+  /* margin: 0px 0px 35px calc((100% - 980px) * 0.5); */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .sidiv button {
   padding: 10px 15px 10px 15px;
@@ -767,7 +775,7 @@ main {
   color: black;
   border: none;
   outline: none;
-  font-size: 20px;
+  font-size: 23px;
 }
 .sidiv button:hover {
   background-color: black;
