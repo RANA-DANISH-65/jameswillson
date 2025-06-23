@@ -687,10 +687,10 @@ main {
   font-size: 18px;
 }
 .planBtn:hover {
-   background-color: white;
-   color: black;
+  background-color: white;
+  color: black;
 }
-.planBtn:hover a{
+.planBtn:hover a {
   color: black;
 }
 .paro a {
@@ -779,7 +779,7 @@ main {
   font-size: 23px;
 }
 .sidiv button:hover {
- padding: 7px 10px 7px 10px;
+  padding: 7px 10px 7px 10px;
 }
 footer {
   padding: 30px 40px 80px 40px;
@@ -813,10 +813,45 @@ footer {
   background: #222222;
   fill: #d1d1d1;
 }
-@media (max-width:1090px) {
-  
+@media (max-width: 1090px) {
+  .fifthDiv img {
+    width: 70%;
+  }
+  .sixDiv img {
+    width: 70%;
+  }
+  .nineB {
+    padding-inline: 0px;
+  }
+  .tenDiv{
+    padding-left: 100px;
+  }
+  .tenB{
+    width: 80%;
+  }
+  .tenC{
+    width: 80%;
+  }
 }
 @media (max-width: 888px) {
+  .nineDiv {
+    padding: 40px 20px 20px 20px;
+  }
+  .nineBA {
+    width: 65%;
+  }
+  .nineBB {
+    width: 55%;
+  }
+  .eightDiv .eightContainer {
+    width: 80%;
+  }
+  .paroDad {
+    flex-direction: column;
+  }
+  .firstDiv img {
+    width: 50%;
+  }
   .fourtDiv h1 {
     font-size: 7rem;
   }
@@ -848,17 +883,17 @@ footer {
   .elB {
     width: 95%;
   }
-  .tenB {
-    flex-direction: column;
+  .tenDiv{
+    padding-left: 65px;
   }
-  .tenB p {
-    width: 80%;
+  .tenA{
+    width: 90%;
   }
-  .tenC {
-    flex-direction: column;
+  .tenB{
+    width: 90%;
   }
-  .tenC p {
-    width: 80%;
+  .tenC{
+    width: 90%;
   }
   .nineB {
     flex-direction: column;
@@ -924,11 +959,57 @@ footer {
   }
 }
 @media (max-width: 755px) {
+  .tenDiv{
+    padding-left: 50px;
+  }
+  .tenA{
+    width: 100%;
+  }
+  .tenA h4{
+    font-size: 60px;
+  }
+  .tenB{
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+  }
+  .tenB p{
+    width: 65%;
+  }
+  .tenB img{
+    width: 65%;
+  }
+  .tenC{
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+  }
+  .tenC p{
+    width: 65%;
+  }
+  .tenC img{
+    width: 65%;
+  }
+  .nineDiv {
+    padding: 40px 20px 20px 0px;
+  }
   .fourtDiv h1 {
     font-size: 5rem;
   }
+  .sevenDiv img {
+    width: 80%;
+  }
+  .eightDiv .eightContainer {
+    width: 90%;
+  }
 }
 @media (max-width: 650px) {
+  .nineA{
+    padding-left: 5px;
+  }
+  .sixDiv div {
+    width: 100%;
+  }
   .fourtDiv {
     background: url(./assets/moneybg.avif) no-repeat left;
     object-fit: cover;
@@ -971,6 +1052,12 @@ footer {
   .tenB img {
     width: 90%;
   }
+  .tenB p {
+    width: 75%;
+  }
+  .tenC p {
+    width: 75%;
+  }
   .tenC img {
     width: 90%;
   }
@@ -981,7 +1068,7 @@ footer {
     padding: 21px 0px 4px 0px;
   }
   .nineBA {
-    width: 100%;
+    width: 90%;
   }
   .nineBB {
     margin-top: 0px;
@@ -1050,6 +1137,25 @@ footer {
   }
 }
 @media (max-width: 600px) {
+  .paroMom {
+    width: 75%;
+  }
+  .fifthDiv img {
+    margin-block: 40px;
+  }
+  .money {
+    margin-top: 70px;
+  }
+  .money div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .firstDiv img {
+    width: 75%;
+  }
   .elA {
     width: 80%;
     margin-bottom: 20px;
@@ -1086,6 +1192,9 @@ footer {
   .secondDiv div {
     gap: 30px;
   }
+  .secondDiv {
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   .fourtDiv h1 {
@@ -1107,8 +1216,14 @@ footer {
     width: 96%;
     font-size: 2.5rem;
   }
+  .tenDiv{
+    padding-left: 20px;
+  }
   .tenA h4 {
-    font-size: 2.75rem;
+    font-size: 41px;
+  }
+  .tenA h5{
+    font-size: 39px;
   }
   .tenA p {
     width: 95%;
@@ -1122,6 +1237,25 @@ footer {
   }
   .secondDiv div {
     padding-top: 30px;
+  }
+  .secondDiv {
+    gap: 40px;
+  }
+  .fourthDiv div p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .tenB{
+    margin-left: 25px;
+  }
+  .tenC{
+    margin-left: 25px;
+  }
+  .tenB p{
+    width: 90%;
+  }
+  .tenC p{
+    width: 90%;
   }
 }
 @media (max-width: 420px) {
