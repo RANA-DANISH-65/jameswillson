@@ -823,14 +823,33 @@ footer {
   .nineB {
     padding-inline: 0px;
   }
-  .tenDiv{
+  .tenDiv {
     padding-left: 100px;
   }
-  .tenB{
+  .tenB {
     width: 80%;
   }
-  .tenC{
+  .tenC {
     width: 80%;
+  }
+  .aikDiv {
+    margin: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .fourtDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fourtDiv .aikDiv {
+    margin: 71px 0px 47px calc((100% - 980px) * 0.5);
+  }
+  .fourtDiv .doDiv {
+    width: 50%;
+  }
+  .fourtDiv .teenDiv {
+    font-size: 22px;
   }
 }
 @media (max-width: 888px) {
@@ -853,7 +872,7 @@ footer {
     width: 50%;
   }
   .fourtDiv h1 {
-    font-size: 7rem;
+    font-size: 4rem;
   }
   .fourtDiv .firstPara {
     width: 80%;
@@ -883,16 +902,16 @@ footer {
   .elB {
     width: 95%;
   }
-  .tenDiv{
+  .tenDiv {
     padding-left: 65px;
   }
-  .tenA{
+  .tenA {
     width: 90%;
   }
-  .tenB{
+  .tenB {
     width: 90%;
   }
-  .tenC{
+  .tenC {
     width: 90%;
   }
   .nineB {
@@ -932,6 +951,10 @@ footer {
   .thirdDiv p {
     font-size: 20px;
   }
+  .fourtDiv .doDiv {
+    width: 70%;
+    text-align: center;
+  }
   nav {
     display: none;
     width: 100%;
@@ -959,42 +982,53 @@ footer {
   }
 }
 @media (max-width: 755px) {
-  .tenDiv{
+  .tenDiv {
     padding-left: 50px;
   }
-  .tenA{
+  .tenA {
     width: 100%;
   }
-  .tenA h4{
+  .tenA h4 {
     font-size: 60px;
   }
-  .tenB{
+  .tenB {
     flex-direction: column;
     align-items: start;
     margin-left: 50px;
   }
-  .tenB p{
+  .tenB p {
     width: 65%;
   }
-  .tenB img{
+  .tenB img {
     width: 65%;
   }
-  .tenC{
+  .tenC {
     flex-direction: column;
     align-items: start;
     margin-left: 50px;
   }
-  .tenC p{
+  .tenC p {
     width: 65%;
   }
-  .tenC img{
+  .tenC img {
     width: 65%;
   }
   .nineDiv {
     padding: 40px 20px 20px 0px;
   }
   .fourtDiv h1 {
-    font-size: 5rem;
+    font-size: 3rem;
+  }
+  .teenDiv {
+    margin: 20px;
+
+    width: 70%;
+  }
+  .fourdiv {
+    margin: 0;
+  }
+  .aikDiv {
+    margin: 20px;
   }
   .sevenDiv img {
     width: 80%;
@@ -1002,22 +1036,24 @@ footer {
   .eightDiv .eightContainer {
     width: 90%;
   }
+  .doDiv {
+    margin: 0;
+  }
+  .fivdiv {
+    margin: 10px;
+  }
+  .sidiv {
+    margin: 20px;
+  }
 }
 @media (max-width: 650px) {
-  .nineA{
+  .nineA {
     padding-left: 5px;
   }
   .sixDiv div {
     width: 100%;
   }
-  .fourtDiv {
-    background: url(./assets/moneybg.avif) no-repeat left;
-    object-fit: cover;
-    padding: 50px 50px 30px 40px;
-  }
-  .fourtDiv h1 {
-    color: white;
-  }
+
   .gapla {
     width: 90%;
   }
@@ -1135,6 +1171,31 @@ footer {
     width: 60%;
     margin-bottom: 20px;
   }
+  .fourdiv {
+    padding: 10px;
+  }
+  .fourtDiv .aikDiv {
+    margin: 20px;
+  }
+  .fourtDiv .doDiv {
+    width: 90%;
+    margin-block: 20px;
+    margin-inline: 15px;
+  }
+  .firstPara {
+    width: 100%;
+  }
+  .teenDiv {
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+  }
+  .fourdiv h5 {
+    font-size: 30px;
+  }
+  .fourdiv span {
+    margin: 10px 0px 0px -38px;
+  }
 }
 @media (max-width: 600px) {
   .paroMom {
@@ -1195,6 +1256,17 @@ footer {
   .secondDiv {
     width: 90%;
   }
+  .fourtDiv .firstPara {
+    width: 100%;
+  }
+  .fourtDiv svg {
+    width: 100px;
+    height: 100px;
+  }
+  .fourdiv span {
+    margin: -35px 0px 0px -45px;
+    font-size: 14px;
+  }
 }
 @media (max-width: 500px) {
   .fourtDiv h1 {
@@ -1216,13 +1288,13 @@ footer {
     width: 96%;
     font-size: 2.5rem;
   }
-  .tenDiv{
+  .tenDiv {
     padding-left: 20px;
   }
   .tenA h4 {
     font-size: 41px;
   }
-  .tenA h5{
+  .tenA h5 {
     font-size: 39px;
   }
   .tenA p {
@@ -1245,17 +1317,26 @@ footer {
     font-size: 18px;
     width: 100%;
   }
-  .tenB{
+  .tenB {
     margin-left: 25px;
   }
-  .tenC{
+  .tenC {
     margin-left: 25px;
   }
-  .tenB p{
+  .tenB p {
     width: 90%;
   }
-  .tenC p{
+  .tenC p {
     width: 90%;
+  }
+  .thirA div p {
+    width: 85%;
+  }
+  .fourtDiv .aikDiv h1 {
+    font-size: 2rem;
+  }
+  .fourdiv h5 {
+    font-size: 25px;
   }
 }
 @media (max-width: 420px) {
