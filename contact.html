@@ -42,7 +42,7 @@
       </div>
       <div class="formDiv">
         <h1>Take an important step toward a more secure retirement.</h1>
-        <form>
+        <form id="contactForm">
           <div>
             <label for="name">Name</label>
             <input type="text" name="name" />
@@ -136,6 +136,47 @@
         </svg>
       </button>
     </div>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form data
+          const form = e.target;
+          const name = form.name.value;
+          const email = form.email.value;
+          const stAd = form.stAd.value;
+          const stAd2 = form.stAd2.value;
+          const city = form.city.value;
+          const state = form.state.value;
+          const postal = form.postal.value;
+          const phone = form.phone.value;
+          const birthday = form.birthday.value;
+
+          // Build email content
+          const subject = `New Contact Form Submission from ${name}`;
+          const body = `Name: ${name}
+Email: ${email}
+Street Address: ${stAd}
+Street Address 2: ${stAd2}
+City: ${city}
+State: ${state}
+Postal/Zip Code: ${postal}
+Phone: ${phone}
+Birthday: ${birthday}`;
+
+          // Encode line breaks and spaces for email
+          const mailtoLink = `mailto:iqbalibsham@gmail.com?subject=${encodeURIComponent(
+            subject
+          )}&body=${encodeURIComponent(body)}`;
+          alert("✅ Thank you! Your email is ready to send.");
+          // Open user's default email app
+          window.location.href = mailtoLink;
+          form.reset();
+        });
+    </script>
     <script>
       const checkbox = document.getElementById("recaptchaCheckbox");
       const spinner = document.querySelector(".spinner");
